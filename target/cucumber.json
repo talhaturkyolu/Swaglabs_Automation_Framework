@@ -1,0 +1,181 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-19T02:37:40.889Z",
+        "line": 4,
+        "name": "valid login",
+        "description": "",
+        "id": "sauce-demo-login;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user enters valid username",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters valid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 702500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I validate that user is logged in",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-19T02:37:40.979Z",
+        "line": 10,
+        "name": "empty password",
+        "description": "",
+        "id": "sauce-demo-login;empty-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user enters valid username",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user leaves password empty",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I validate that \"Epic sadface: Password is required...\" message is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-19T02:37:40.992Z",
+        "line": 16,
+        "name": "invalid login",
+        "description": "",
+        "id": "sauce-demo-login;invalid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user enters invalid username as \"random_username\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user enters invalid password as \"random_password\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "click on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319100,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I validate that \"Epic sadface: Username and password do not match any user in this service\" message is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Sauce Demo login",
+    "description": "",
+    "id": "sauce-demo-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
