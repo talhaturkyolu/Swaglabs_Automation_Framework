@@ -1,4 +1,4 @@
-package com.Swaglabs.utils;
+package com.neotech.utils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,8 +11,8 @@ public class ConfigsReader {
 
 	/**
 	 * This method will read the properties file
-	 *
-	 * @param  filePath
+	 * 
+	 * @param String filePath
 	 */
 	public static void readProperties(String filePath) {
 
@@ -32,7 +32,7 @@ public class ConfigsReader {
 	/**
 	 * This method will return the value for a specific key
 	 * 
-	 * @param  key
+	 * @param String key
 	 * @return String value
 	 */
 	public static String getProperty(String key) {

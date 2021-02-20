@@ -1,9 +1,8 @@
-package com.Swaglabs.steps;
+package com.neotech.steps;
 
+import com.neotech.testbase.BaseClass;
+import com.neotech.utils.CommonMethods;
 
-
-import com.Swaglabs.testbase.BaseClass;
-import com.Swaglabs.utils.CommonMethods;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

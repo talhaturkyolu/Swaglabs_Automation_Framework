@@ -1,12 +1,12 @@
-package com.Swaglabs.pages;
+package com.neotech.pages;
 
-import com.Swaglabs.testbase.BaseClass;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.neotech.testbase.BaseClass;
 
-public class LoginPage extends BaseClass {
+public class LoginPage extends BaseClass{
 
 	@FindBy(id = "user-name")
 	public WebElement userName;

@@ -1,4 +1,4 @@
-package com.Swaglabs.utils;
+package com.neotech.utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.UnexpectedTagNameException;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.Swaglabs.testbase.PageInitializer;
+import com.neotech.testbase.PageInitializer;
 
 public class CommonMethods extends PageInitializer {
 

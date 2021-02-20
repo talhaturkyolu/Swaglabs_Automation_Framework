@@ -1,9 +1,9 @@
-package com.Swaglabs.runners;
+package com.neotech.runners;
 
+import org.junit.runner.RunWith;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 			dryRun = false,
 			
 			// tags is similar to groups in TestNG
-			tags = "@login",
+			tags = "@dt",
 			
 			monochrome = true,
 			plugin = {

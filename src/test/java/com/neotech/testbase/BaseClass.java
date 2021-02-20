@@ -1,13 +1,13 @@
-package com.Swaglabs.testbase;
+package com.neotech.testbase;
 
 import java.util.concurrent.TimeUnit;
 
-import com.Swaglabs.utils.ConfigsReader;
-import com.Swaglabs.utils.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import com.neotech.utils.ConfigsReader;
+import com.neotech.utils.Constants;
 
 public class BaseClass {
 

@@ -1,4 +1,4 @@
-package com.Swaglabs.utils;
+package com.neotech.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
